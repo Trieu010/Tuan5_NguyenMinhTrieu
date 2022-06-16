@@ -77,3 +77,7 @@ D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_N
 D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\obj\Debug\Tuan5_NguyenMinhTrieu.csproj.CopyComplete
 D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\obj\Debug\Tuan5_NguyenMinhTrieu.dll
 D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\obj\Debug\Tuan5_NguyenMinhTrieu.pdb
+D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\bin\PagedList.dll
+D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\bin\PagedList.Mvc.dll
+D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\bin\PagedList.xml
+D:\Web\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\Tuan5_NguyenMinhTrieu\bin\PagedList.Mvc.xml
