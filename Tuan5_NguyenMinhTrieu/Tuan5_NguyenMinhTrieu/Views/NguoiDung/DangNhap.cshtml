@@ -1,0 +1,48 @@
+﻿@model Tuan5_NguyenMinhTrieu.Models.KhachHang
+
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DangNhap</h2>
+<br />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4 style="color:red; text-align:center">
+            @ViewBag.ThongBao
+        </h4>
+        <tr style="height:40px">
+            <td>Tên đăng nhập: </td>
+            <td>
+                @Html.TextBox("tendangnhap")
+            </td>
+        </tr>
+        <br />
+        <br />
+        <tr style="height:40px">
+            <td align="right">Mật khẩu: </td>
+            <td>
+                @Html.Password("matkhau")
+            </td>
+        </tr>
+        <br />
+        <br />
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input type="Submit" value="Đăng nhập" />
+            </td>
+        </tr>
+
+
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", "Home")
+</div>
