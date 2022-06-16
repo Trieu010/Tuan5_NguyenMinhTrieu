@@ -122,6 +122,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SachController.cs" />
     <Compile Include="Controllers\TheloaiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -178,6 +179,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Theloai\Index.cshtml" />
+    <Content Include="Views\Theloai\Detail.cshtml" />
+    <Content Include="Views\Theloai\Create.cshtml" />
+    <Content Include="Views\Theloai\Edit.cshtml" />
+    <Content Include="Views\Theloai\Delete.cshtml" />
+    <Content Include="Views\Sach\ListSach.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
