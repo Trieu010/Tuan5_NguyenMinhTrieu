@@ -4,33 +4,28 @@
     ViewBag.Title = "DangNhap";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<table align="center">
+    <h2 style="text-align:center">Đăng Nhập</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
 
-<h2>DangNhap</h2>
-<br />
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
-
-    <div class="form-horizontal">
-        <h4 style="color:red; text-align:center">
-            @ViewBag.ThongBao
-        </h4>
+        <div class="form-horizontal">
+            <h4 style="color:red; text-align:center">
+                @ViewBag.ThongBao
+            </h4>
         <tr style="height:40px">
             <td>Tên đăng nhập: </td>
             <td>
                 @Html.TextBox("tendangnhap")
             </td>
         </tr>
-        <br />
-        <br />
         <tr style="height:40px">
             <td align="right">Mật khẩu: </td>
             <td>
                 @Html.Password("matkhau")
             </td>
         </tr>
-        <br />
-        <br />
         <tr style="height:40px">
             <td></td>
             <td>
@@ -40,9 +35,9 @@
 
 
 
-    </div>
-}
-
+        </div>
+    }
+</table>
 <div>
     @Html.ActionLink("Back to List", "Index", "Home")
 </div>

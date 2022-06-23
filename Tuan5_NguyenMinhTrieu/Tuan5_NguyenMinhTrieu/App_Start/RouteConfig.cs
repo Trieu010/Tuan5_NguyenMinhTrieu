@@ -16,7 +16,7 @@ namespace Tuan5_NguyenMinhTrieu
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Sach", action = "ListSach", id = UrlParameter.Optional }
+                defaults: new { controller = "NguoiDung", action = "DangNhap", id = UrlParameter.Optional }
             );
         }
     }
