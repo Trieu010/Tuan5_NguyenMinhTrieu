@@ -10,7 +10,7 @@ namespace Tuan5_NguyenMinhTrieu.Controllers
     public class GiohangController : Controller
     {
         MyDataDataContext data = new MyDataDataContext();
-        // GET: Giohang
+        // GET: Giohang.
         public List<Giohang> Laygiohang()
         {
             List<Giohang> lstGiohang = Session["Giohang"] as List<Giohang>;
